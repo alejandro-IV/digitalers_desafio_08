@@ -1,0 +1,42 @@
+/* Importamos fuente de fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
+
+/* Estilos */
+body {
+    font-family: 'Mulish', sans-serif;
+    color: #04146c;
+    font-size: 30px;
+}
+
+/* Aplicamos flex al contenedor de las imágenes */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;  
+}
+
+/* Aplicamos un ancho */
+.container img {
+    width: 40%;
+}
+
+/* Estilos */
+h1 {
+    font-size: 50px;
+    margin-bottom: 4px;
+    font-weight: 900;
+    border-bottom: 1px solid;
+}
+
+.container p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
